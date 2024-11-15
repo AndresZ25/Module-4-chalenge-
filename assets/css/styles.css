@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  
+  .dark-mode {
+    background-color:black;
+    color:white;
+  }
+  
+
+  .main-container {
+    display: flex;
+    height: 80vh;
+    padding: 10px;
+    gap: 20px;
+  }
+  
+
+  .left-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+
+  .logo-circle {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+  }
+
+
+  .logo-circle {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  

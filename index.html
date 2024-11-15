@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog - Add Post</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body>
+
+    <header class="main-header">
+
+    </header>
+  <main class="main-container">
+    <div class="header-content">
+       
+        <button id="toggleMode" class="mode-toggle">🌞/🌙</button>
+    </div>
+    
+    <div class="left-column">
+      <div class="logo-circle">
+        <span class ="logo-circle" >My First Blog</span>
+      </div>
+    </div>
+
+    
+    <div class="right-column">
+      <form id="blogForm">
+        <h1>What are you thinking?</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+
+        <label for="title">Blog Title:</label>
+        <input type="text" id="title" required>
+
+        <label for="content">Content:</label>
+        <textarea id="content" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+      <div id="errorMessage" class="error-message"></div>
+    </div>
+  </main>
+
+  <footer>
+    <a href="https://andresz25.github.io/Module-2-challenge-/">Developer Portfolio</a>    
+  </footer>
+
+  <script src="assets/js/logic.js"></script>
+  <script src="assets/js/form.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

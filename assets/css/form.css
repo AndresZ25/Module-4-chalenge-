@@ -1,0 +1,32 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; 
+    width: 100%; 
+    margin: auto;
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+
+label, input, textarea, button {
+    margin: 10px 0;
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+
+input, textarea, button {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+textarea {
+    resize: vertical; 
+}
+
+
+form {
+    overflow: hidden; 
+}
